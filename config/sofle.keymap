@@ -32,6 +32,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LWIN>
+                , <&macro_wait_time 100>
                 , <&macro_tap &kp SPACE>
                 , <&macro_release &kp LWIN>
                 ;
